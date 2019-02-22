@@ -1,0 +1,61 @@
+//добавить в локальный залить на удалённый
+git init
+git add .
+git remote add origin https://github.com/umdomby/....
+git commit -m "This is a new commit for what I originally planned to be amended"
+git push origin master
+
+//заменить локальный репозиториый
+git status
+git add .    (git pull попробывать)
+git commit -m "2"
+
+
+
+git remote origin https://github.com/umdomby/UMDOM1Server.git
+git push
+
+
+
+
+CD
+git init --> создаём репозитория
+git status --> проверяем папки, показывает изменения в файле
+git add . --> перемещаем проект, перемещаем инверсионный проект, добавляет файлы в систему контроля версий
+git diff --> изменения
+git diff --staged  -->
+git commit -v
+git commit -m "изменения"
+git commit -a --> открывается редактор commit
+git reset --hard Head`1 --> удалит последний commit
+
+
+(редактор два режима управления  и редактирования Esc  
+обратно в редактирование Ctrl+v, выйти Esc --> :wq не сохранять :q)
+----
+
+
+
+git add .
+git commit -v
+Esc --> :wq  (консольный редактор wim)
+
+
+…or create a new repository on the command line
+echo "# umdomServer" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/umdomby/umdomServer.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/umdomby/umdomServer.git
+git push -u origin master
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+https://stackoverflow.com/questions/24114676/git-error-failed-to-push-some-refs-to
+
+git reset --mixed origin/master
+
+
